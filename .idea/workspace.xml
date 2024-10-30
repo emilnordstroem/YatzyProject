@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bed1782-295b-4529-b5e0-ce21edd298f8" name="Changes" comment="Added JavaFx libs">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_javafx_controls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/YatzyGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/YatzyGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Die.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/RaffleCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/RaffleCup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/YatzyResultCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/YatzyResultCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +34,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/benn-christensen/Yatzy.git&quot;,
-    &quot;accountId&quot;: &quot;72e6f8f1-2ad2-41dc-b9cc-aa352c3736f3&quot;
+    &quot;url&quot;: &quot;https://github.com/emilnordstroem/YatzyProject.git&quot;,
+    &quot;accountId&quot;: &quot;547ece8f-27eb-4fbe-8f7c-ef6a15caaec7&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -47,8 +49,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.YatzyGUI.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.YatzyResultsCalculatorTests.executor": "Run",
+    "JUnit.YatzyResultsCalculatorTests.upperSectionScoreTests.executor": "Run",
     "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
@@ -57,12 +61,21 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Emil Nordstrøm/IdeaProjects/ComputerScience(AP)/semester_1/programmering01/DiceProject",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.YatzyResultsCalculatorTests">
+  <component name="RunManager" selected="Application.YatzyGUI">
+    <configuration name="YatzyGUI" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="gui.YatzyApp" />
+      <module name="Yatzy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YatzyResultsCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Yatzy" />
       <extension name="coverage">
@@ -94,6 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.YatzyGUI" />
+      <item itemvalue="JUnit.YatzyResultsCalculatorTests" />
+      <item itemvalue="JUnit.YatzyResultsCalculatorTests.upperSectionScoreTests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.YatzyResultsCalculatorTests" />
@@ -126,5 +144,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added JavaFx libs" />
     <option name="LAST_COMMIT_MESSAGE" value="Added JavaFx libs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
